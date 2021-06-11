@@ -8,5 +8,5 @@ const descriptionSchema = new Schema( {
     }
 }, { timestamps: true })
 
-const Description = mongoose.model('Description', descriptionSchema)
+const Description = mongoose.model('descriptions', descriptionSchema)
 module.exports = Description
